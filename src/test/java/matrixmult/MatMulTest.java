@@ -4,14 +4,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import matrixmult.MatMulMain;
 public class MatMulTest {
 	
-	public static MatMulMain obj;
+	public static matmulm obj;
 	@BeforeAll
 	public static void CreateObj()
 	{
-		obj=new MatMulMain();
+		obj=new matmulm();
 	}
 	int A[][] = { { 1, 1, 1 }, 
             { 2, 2, 2 }, 
